@@ -2,7 +2,7 @@
   "mcpServers": {
     "checkpj": {
       "command": "npx",
-      "args": ["-y", "@checkpj/mcp-server"],
+      "args": ["-y", "checkpj-mcp-server"],
       "env": {
         "CHECKPJ_API_KEY": ""
       }

@@ -1,4 +1,4 @@
-# @checkpj/mcp-server
+# checkpj-mcp-server
 
 MCP server for [CheckPJ](https://checkpj.app) — Brazilian company data API.
 
@@ -32,7 +32,7 @@ Add to your Claude Code settings (`~/.claude/settings.json`):
 ### npm (global install)
 
 ```bash
-npm install -g @checkpj/mcp-server
+npm install -g checkpj-mcp-server
 ```
 
 Then use `checkpj-mcp` as the command.

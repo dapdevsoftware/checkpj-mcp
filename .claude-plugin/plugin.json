@@ -8,7 +8,7 @@
   "icon": "https://checkpj.app/favicon.ico",
   "mcp": {
     "command": "npx",
-    "args": ["-y", "@checkpj/mcp-server"],
+    "args": ["-y", "checkpj-mcp-server"],
     "env": {
       "CHECKPJ_API_KEY": {
         "description": "Your CheckPJ API key. Get one free at https://checkpj.app (POST /v1/signup)",
