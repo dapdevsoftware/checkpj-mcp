@@ -1,0 +1,19 @@
+{
+  "name": "checkpj",
+  "display_name": "CheckPJ - Brazilian Company Data",
+  "description": "Look up, search, and validate Brazilian companies (CNPJ) with 69M+ records from Receita Federal. Get company details, health scores, shareholder data, and more.",
+  "version": "1.0.0",
+  "author": "DAPDEV Software Solutions",
+  "homepage": "https://checkpj.app",
+  "icon": "https://checkpj.app/favicon.ico",
+  "mcp": {
+    "command": "npx",
+    "args": ["-y", "@checkpj/mcp-server"],
+    "env": {
+      "CHECKPJ_API_KEY": {
+        "description": "Your CheckPJ API key. Get one free at https://checkpj.app (POST /v1/signup)",
+        "required": false
+      }
+    }
+  }
+}
